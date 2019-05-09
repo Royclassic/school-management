@@ -16,6 +16,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Fontawsome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!-- Lightbox Gallery -->
     <link href="inc/lightbox/css/jquery.fancybox.css" rel="stylesheet">
     <!-- Animate CSS-->
@@ -48,18 +50,21 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="top-menu-left">
-							<p>Need help?</p>
+							<b><i class="fa fa-calendar"></i>Events</b>
+							<b><i class="fa fa-newspaper"></i>News</b>
+							<b><i class="fa fa-picture-o"></i>Gallery</b>
+							<!-- <p>Need help?</p> -->
 							<b><i class="fa fa-phone"></i> (00) 123 456 789</b>
 							<b><i class="fa fa-envelope"></i> support@edufair.com</b>
 						</div>				
 					</div>				
-					<div class="col-md-6">
+					<!-- <div class="col-md-6">
 						<div class="top-menu-right">
-						<a href="#" class="" data-toggle="modal" data-target="#regiater"><i class="fa fa-user"></i> Register</a>
-						<a href="#" class="" data-toggle="modal" data-target="#log-in"><i class="fa fa-lock"></i> Login</a>
+						<a href="#" class="" data-toggle="modal" data-target="#regiater"><i class="fa fa-user"></i> Events</a>
+						<a href="#" class="" data-toggle="modal" data-target="#log-in"><i class="fa fa-lock"></i> News</a>
 						
 						</div>				
-					</div>
+					</div> -->
 					<div class="col-md-12">
 						<!-- Modal -->
 						<div class="modal fade" id="regiater" tabindex="-1" role="dialog">
@@ -173,7 +178,7 @@
 						<i class="fa fa-align-right fa-2"></i>
 					  </button>
 					  
-					  <a class="navbar-brand edufair-brand edufair-light" href="#"><img src="images/edufair-light.png" alt="Logo"></a>
+					  <a class="navbar-brand edufair-brand edufair-light" href="index.html"><img src="images/edufair-light.png" alt="Logo"></a>
 					  <a class="navbar-brand edufair-brand edufair-dark" href="#"><img src="images/edufair.png" alt="Logo"></a>
 					  
 					</div>
@@ -182,71 +187,72 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						  
 					  
-					  <ul class="nav navbar-nav navbar-right">					
-						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <i class="fa fa-angle-down"></i></a>
-						  <ul class="dropdown-menu">
-							<li><a href="online-course-one.html" target="_blank">Online Course One</a></li>
-							<li><a href="online-course-two.html" target="_blank">Online Course Two</a></li>
-							<li><a href="university-one.html" target="_blank">University One</a></li> 
-							<li><a href="university-two.html" target="_blank">University Two</a></li> 
-							<li><a href="high-school.html" target="_blank">High School</a></li> 
-							<li><a href="kindergarten.html" target="_blank">Kindergarten</a></li> 
-						  </ul>
-						</li>
-						
-						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Course  <i class="fa fa-angle-down"></i></a>
-						  <ul class="dropdown-menu">
-							<li><a href="course-one.html">Course One</a></li>			            		            
-							<li><a href="course-two.html">Course Two</a></li>
-							<li><a href="single-course.html">Course Single</a></li>	
-						  </ul>						
-						</li>
-						
-						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <i class="fa fa-angle-down"></i></a>
-						  <ul class="dropdown-menu">												  
-							<li><a href="admission-apply.html">Admission Apply</a></li>
-							<li><a href="vice-chancellor.html">Vice Chancellor</a></li>
-							<li><a href="about-us.html">About Us</a></li>							
-							<li><a href="offer.html">Offer</a></li>
-							<li><a href="schollarship.html">Schollarship</a></li>							
-							<li><a href="atletics.html">Atletics</a></li>
-							<li><a href="events-one.html">Events</a></li>
-							<li><a href="gallery.html">Gallery</a></li>	
-							<li><a href="notice.html">Notice</a></li>
-							<li><a href="notice-details.html">Notice Single</a></li>
-							<li><a href="carrer.html">Carrer</a></li>
-							<li><a href="carrer-details.html">Carrer Single</a></li>							
-							<li><a href="contact-us.html">Contact Us</a></li>
-							<li><a href="teacher.html">Teachers</a></li>
-							<li><a href="commingsoon.html">Comming Soon</a></li>
-							<li><a href="404.html">404 Page</a></li>
-						  </ul>
-						</li>										
+					  	<ul class="nav navbar-nav navbar-right">	
 
-						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <i class="fa fa-angle-down"></i></a>
-						  <ul class="dropdown-menu">
-							<li><a href="blog.html">Blog </a></li>
-							<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-							<li><a href="single.html">Blog Single</a></li>			            		            
-						  </ul>
-						</li>
+							<li><a href="index.html">Home</a></li>		
 						
-						<li><a href="shop.html">Shop</a></li>
-						<li><a href="components.html">Component</a></li>						
+							<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics <i class="fa fa-angle-down"></i></a>
+							  <ul class="dropdown-menu">
+								<li><a href="course-one.html">Course One</a></li>			            		            
+								<li><a href="course-two.html">Course Two</a></li>
+								<li><a href="single-course.html">Course Single</a></li>	
+							  </ul>						
+							</li>
+							
+							<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admissions <i class="fa fa-angle-down"></i></a>
+							  <ul class="dropdown-menu">												  
+								<li><a href="admission-apply.html">Admission Apply</a></li>
+								<li><a href="vice-chancellor.html">Vice Chancellor</a></li>
+								<li><a href="about-us.html">About Us</a></li>							
+								<li><a href="offer.html">Offer</a></li>
+								<li><a href="schollarship.html">Schollarship</a></li>							
+								<li><a href="atletics.html">Atletics</a></li>
+								<li><a href="events-one.html">Events</a></li>
+								<li><a href="gallery.html">Gallery</a></li>	
+								<li><a href="notice.html">Notice</a></li>
+								<li><a href="notice-details.html">Notice Single</a></li>
+								<li><a href="carrer.html">Carrer</a></li>
+								<li><a href="carrer-details.html">Carrer Single</a></li>							
+								<li><a href="contact-us.html">Contact Us</a></li>
+								<li><a href="teacher.html">Teachers</a></li>
+								<li><a href="commingsoon.html">Comming Soon</a></li>
+								<li><a href="404.html">404 Page</a></li>
+							  </ul>
+							</li>
+
+							<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <i class="fa fa-angle-down"></i></a>
+							  <ul class="dropdown-menu">
+								<li><a href="course-one.html">Course One</a></li>			            		            
+								<li><a href="course-two.html">Course Two</a></li>
+								<li><a href="single-course.html">Course Single</a></li>	
+							  </ul>						
+							</li>										
+
+							<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">portal <i class="fa fa-angle-down"></i></a>
+							  <ul class="dropdown-menu">
+								<li><a href="#" class="" data-toggle="modal" data-target="#log-in">Student Portal</a></li>
+								<li><a href="#" class="" data-toggle="modal" data-target="#log-in">Staff Portal</a></li>	
+								<li><a href="#" class="" data-toggle="modal" data-target="#log-in">Parent Portal</a></li>	            		           
+							  </ul>
+							</li>
+
+<!-- 							<li><a href="shop.html">Event</a></li>
+							<li><a href="shop.html">News</a></li> -->
+							<li><a href="components.html">Contact</a></li>						
 					  </ul>
 					  
 					  <div class="edufair-cart hidden-xs">
 						<div class="box">
 						  <div class="container-2">
-							  <span class="icon"><i class="fa fa-search"></i></span>
+							  <span class="icon"><i class="fas fa-search"></i></span>
 							  <input type="search" id="search" placeholder="Search..." />
 						  </div>
 						</div>
-						<a href="#"><i class="fa fa-shopping-cart"></i><span class="cart-no">0</span></a>
+						<!-- <a href="#"><i class="fa fa-shopping-cart"></i><span class="cart-no">0</span></a> -->
 					  </div>
 					  
 					</div><!-- /.navbar-collapse -->
